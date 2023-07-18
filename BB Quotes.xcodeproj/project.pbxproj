@@ -19,6 +19,7 @@
 		74E3FEF92A66B4FD00C7D9F8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEF82A66B4FD00C7D9F8 /* ViewModel.swift */; };
 		74E3FEFC2A66BBD900C7D9F8 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEFB2A66BBD900C7D9F8 /* QuoteView.swift */; };
 		74E3FEFE2A66E1D000C7D9F8 /* PlaceholderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEFD2A66E1D000C7D9F8 /* PlaceholderViews.swift */; };
+		74E3FF002A670D2600C7D9F8 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEFF2A670D2600C7D9F8 /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		74E3FEF82A66B4FD00C7D9F8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		74E3FEFB2A66BBD900C7D9F8 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		74E3FEFD2A66E1D000C7D9F8 /* PlaceholderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViews.swift; sourceTree = "<group>"; };
+		74E3FEFF2A670D2600C7D9F8 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				74E3FEDF2A66926600C7D9F8 /* ContentView.swift */,
 				74E3FEFB2A66BBD900C7D9F8 /* QuoteView.swift */,
+				74E3FEFF2A670D2600C7D9F8 /* CharacterView.swift */,
 				74E3FEFD2A66E1D000C7D9F8 /* PlaceholderViews.swift */,
 			);
 			path = View;
@@ -196,6 +199,7 @@
 			files = (
 				74E3FEE02A66926600C7D9F8 /* ContentView.swift in Sources */,
 				74E3FEEE2A669D5700C7D9F8 /* Quote.swift in Sources */,
+				74E3FF002A670D2600C7D9F8 /* CharacterView.swift in Sources */,
 				74E3FEFE2A66E1D000C7D9F8 /* PlaceholderViews.swift in Sources */,
 				74E3FEDE2A66926600C7D9F8 /* BB_QuotesApp.swift in Sources */,
 				74E3FEFC2A66BBD900C7D9F8 /* QuoteView.swift in Sources */,
