@@ -85,26 +85,6 @@ struct QuoteView: View {
 		}
 		.ignoresSafeArea()
 	}
-	
-	// Placeholder views
-	struct PlaceholderQuoteView: View {
-		var body: some View {
-			Text("Loading quote...")
-				.foregroundColor(.white)
-				.padding()
-				.background(Color("BBGreen").opacity(0.6))
-				.cornerRadius(25)
-				.padding(.horizontal)
-		}
-	}
-	
-	struct PlaceholderImageView: View {
-		var body: some View {
-			Color.gray
-				.frame(width: 250, height: 250)
-				.cornerRadius(70)
-		}
-	}
 }
 
 struct QuoteView_Previews: PreviewProvider {
