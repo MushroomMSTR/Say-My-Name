@@ -92,6 +92,11 @@ struct QuoteView: View {
 			.frame(width: geo.size.width, height: geo.size.height)
 		}
 		.ignoresSafeArea()
+		.onAppear {
+			Task {
+				await viewModel.getData(for: show)
+			}
+		}
 	}
 }
 
