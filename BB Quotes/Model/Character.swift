@@ -12,6 +12,6 @@ struct Character: Decodable {
 	let birthday: String
 	let occupations: [String]
 	let images: [URL]
-	let alieases: [String]
+	let aliases: [String]
 	let portrayedBy: String
 }
