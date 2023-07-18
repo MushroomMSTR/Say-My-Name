@@ -53,6 +53,8 @@ struct QuoteView: View {
 						.cornerRadius(70)
 						
 					case .fetching:
+						PlaceholderQuoteView()
+						PlaceholderImageView()
 						ProgressView()
 						
 					default:
@@ -82,6 +84,26 @@ struct QuoteView: View {
 			.frame(width: geo.size.width, height: geo.size.height)
 		}
 		.ignoresSafeArea()
+	}
+	
+	// Placeholder views
+	struct PlaceholderQuoteView: View {
+		var body: some View {
+			Text("Loading quote...")
+				.foregroundColor(.white)
+				.padding()
+				.background(Color("BBGreen").opacity(0.6))
+				.cornerRadius(25)
+				.padding(.horizontal)
+		}
+	}
+	
+	struct PlaceholderImageView: View {
+		var body: some View {
+			Color.gray
+				.frame(width: 250, height: 250)
+				.cornerRadius(70)
+		}
 	}
 }
 
