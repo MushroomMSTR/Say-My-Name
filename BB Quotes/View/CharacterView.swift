@@ -8,19 +8,28 @@
 import SwiftUI
 
 struct CharacterView: View {
+	
+	let show: String
+	let character: Character
+	
 	var body: some View {
 		GeometryReader { geo in
 			ZStack(alignment: .top) {
 				// Back
-				Image("breakingbad")
+				Image(show.lowerNoSpaces)
 					.resizable()
 					.scaledToFit()
 				ScrollView {
 					// Character Image
 					VStack {
-						Image("jessepinkman")
-							.resizable()
-							.scaledToFill()
+						AsyncImage(url: character.images.randomElement()) { image in
+							image
+								.resizable()
+								.scaledToFill()
+						} placeholder: {
+							ProgressView()
+						}
+
 					}
 					.frame(width: geo.size.width/1.2, height: geo.size.height/1.7)
 					.cornerRadius(25)
@@ -28,25 +37,25 @@ struct CharacterView: View {
 					// Character Info
 					VStack(alignment: .leading) {
 						Group {
-							Text("Jesse Pinkman")
+							Text(character.name)
 								.font(.largeTitle)
 							
-							Text("Portrayed by: Aaron Paul")
+							Text("Portrayed by: \(character.portrayedBy)")
 								.font(.subheadline)
 							
 							Divider()
 							
-							Text("Jesse Pinkman Character Info")
+							Text("\(character.name) Character Info")
 								.font(.title2)
 							
-							Text("Born: 09-24-1984")
+							Text("Born: \(character.birthday)")
 							
 							Divider()
 							
 							Text("Occupations:")
 							
-							ForEach(0..<3) { i in
-								Text("•Occupation \(i)")
+							ForEach(character.occupations, id:\.self) { occupation in
+								Text("•\(occupation)")
 									.font(.subheadline)
 							}
 							
@@ -56,10 +65,16 @@ struct CharacterView: View {
 						Group {
 							Text("Nicknames:")
 							
-							ForEach(0..<3) { i in
-								Text("•Nickname \(i)")
+							if character.aliases.count > 0 {
+								ForEach(character.aliases, id:\.self) { alias in
+									Text("•\(alias)")
+										.font(.subheadline)
+								}
+							} else {
+								Text("None")
 									.font(.subheadline)
 							}
+							
 						}
 					}
 					.padding([.leading, .bottom], 40)
@@ -72,6 +87,6 @@ struct CharacterView: View {
 
 struct CharacterView_Previews: PreviewProvider {
 	static var previews: some View {
-		CharacterView()
+		CharacterView(show: Constants.bbName, character: Constants.previewCharacter)
 	}
 }
