@@ -63,16 +63,16 @@ struct QuoteView: View {
 					
 					Button {
 						Task {
-							await viewModel.getData(for: show) // When I press the button, I don't see the result. A quote and an image of a character from the series should appear, but it doesn't, what could be the problem?
+							await viewModel.getData(for: show)
 						}
 					} label: {
 						Text("Get Random Quote")
-						.font(.title)
-						.foregroundColor(.white)
-						.padding()
-						.background(Color("BBGreen"))
-						.cornerRadius(7)
-						.shadow(color: Color("BBOrange"),radius: 2)
+							.font(.title)
+							.foregroundColor(.white)
+							.padding()
+							.background(Color("BBGreen"))
+							.cornerRadius(7)
+							.shadow(color: Color("BBOrange"),radius: 2)
 					}
 					
 					Spacer(minLength: 210)
