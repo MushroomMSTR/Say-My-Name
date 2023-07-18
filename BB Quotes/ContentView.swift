@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+		TabView {
+			Text("Breaking Bad View")
+				.tabItem {
+					Label("Breaking Bad", systemImage: "tortoise")
+				}
+			Text("Better Call Saul View")
+				.tabItem {
+					Label("Better Call Saul", systemImage: "briefcase")
+				}
+		}
+		.onAppear {
+			UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance()
+		}
     }
 }
 

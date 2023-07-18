@@ -11,6 +11,7 @@
 		74E3FEE02A66926600C7D9F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEDF2A66926600C7D9F8 /* ContentView.swift */; };
 		74E3FEE22A66926900C7D9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E3FEE12A66926900C7D9F8 /* Assets.xcassets */; };
 		74E3FEE52A66926900C7D9F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E3FEE42A66926900C7D9F8 /* Preview Assets.xcassets */; };
+		74E3FEEC2A66940400C7D9F8 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = 74E3FEEB2A66940400C7D9F8 /* samplecharacter.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		74E3FEDF2A66926600C7D9F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74E3FEE12A66926900C7D9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74E3FEE42A66926900C7D9F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74E3FEEB2A66940400C7D9F8 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				74E3FEDD2A66926600C7D9F8 /* BB_QuotesApp.swift */,
 				74E3FEDF2A66926600C7D9F8 /* ContentView.swift */,
 				74E3FEE12A66926900C7D9F8 /* Assets.xcassets */,
+				74E3FEEB2A66940400C7D9F8 /* samplecharacter.json */,
 				74E3FEE32A66926900C7D9F8 /* Preview Content */,
 			);
 			path = "BB Quotes";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E3FEE52A66926900C7D9F8 /* Preview Assets.xcassets in Resources */,
+				74E3FEEC2A66940400C7D9F8 /* samplecharacter.json in Resources */,
 				74E3FEE22A66926900C7D9F8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
