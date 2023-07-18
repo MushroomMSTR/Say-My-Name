@@ -12,7 +12,7 @@ struct PlaceholderQuoteView: View {
 		Text("Loading quote...")
 			.foregroundColor(.white)
 			.padding()
-			.background(Color("BBGreen").opacity(0.6))
+			.background(Color("BreakingBadButton").opacity(0.1))
 			.cornerRadius(25)
 			.padding(.horizontal)
 	}
@@ -21,8 +21,9 @@ struct PlaceholderQuoteView: View {
 struct PlaceholderImageView: View {
 	var body: some View {
 		Color.gray
-			.frame(width: 200, height: 200)
+			.frame(width: 250, height: 250)
 			.cornerRadius(70)
+			.opacity(0.1)
 	}
 }
 
