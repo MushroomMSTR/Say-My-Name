@@ -17,6 +17,7 @@
 		74E3FEF42A66A33500C7D9F8 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEF32A66A33500C7D9F8 /* FetchController.swift */; };
 		74E3FEF62A66B29200C7D9F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEF52A66B29200C7D9F8 /* Constants.swift */; };
 		74E3FEF92A66B4FD00C7D9F8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEF82A66B4FD00C7D9F8 /* ViewModel.swift */; };
+		74E3FEFC2A66BBD900C7D9F8 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEFB2A66BBD900C7D9F8 /* QuoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		74E3FEF32A66A33500C7D9F8 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 		74E3FEF52A66B29200C7D9F8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		74E3FEF82A66B4FD00C7D9F8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		74E3FEFB2A66BBD900C7D9F8 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +68,8 @@
 				74E3FEF12A669E2800C7D9F8 /* Model */,
 				74E3FEF22A66A31300C7D9F8 /* Controller */,
 				74E3FEF72A66B4DC00C7D9F8 /* View Model */,
+				74E3FEFA2A66BBBE00C7D9F8 /* View */,
 				74E3FEDD2A66926600C7D9F8 /* BB_QuotesApp.swift */,
-				74E3FEDF2A66926600C7D9F8 /* ContentView.swift */,
 				74E3FEF52A66B29200C7D9F8 /* Constants.swift */,
 				74E3FEE12A66926900C7D9F8 /* Assets.xcassets */,
 				74E3FEEB2A66940400C7D9F8 /* samplecharacter.json */,
@@ -107,6 +109,15 @@
 				74E3FEF82A66B4FD00C7D9F8 /* ViewModel.swift */,
 			);
 			path = "View Model";
+			sourceTree = "<group>";
+		};
+		74E3FEFA2A66BBBE00C7D9F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74E3FEDF2A66926600C7D9F8 /* ContentView.swift */,
+				74E3FEFB2A66BBD900C7D9F8 /* QuoteView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				74E3FEE02A66926600C7D9F8 /* ContentView.swift in Sources */,
 				74E3FEEE2A669D5700C7D9F8 /* Quote.swift in Sources */,
 				74E3FEDE2A66926600C7D9F8 /* BB_QuotesApp.swift in Sources */,
+				74E3FEFC2A66BBD900C7D9F8 /* QuoteView.swift in Sources */,
 				74E3FEF42A66A33500C7D9F8 /* FetchController.swift in Sources */,
 				74E3FEF02A669DAB00C7D9F8 /* Character.swift in Sources */,
 				74E3FEF62A66B29200C7D9F8 /* Constants.swift in Sources */,
