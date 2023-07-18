@@ -16,6 +16,7 @@
 		74E3FEF02A669DAB00C7D9F8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEEF2A669DAB00C7D9F8 /* Character.swift */; };
 		74E3FEF42A66A33500C7D9F8 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEF32A66A33500C7D9F8 /* FetchController.swift */; };
 		74E3FEF62A66B29200C7D9F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEF52A66B29200C7D9F8 /* Constants.swift */; };
+		74E3FEF92A66B4FD00C7D9F8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3FEF82A66B4FD00C7D9F8 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		74E3FEEF2A669DAB00C7D9F8 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		74E3FEF32A66A33500C7D9F8 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 		74E3FEF52A66B29200C7D9F8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		74E3FEF82A66B4FD00C7D9F8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				74E3FEF12A669E2800C7D9F8 /* Model */,
 				74E3FEF22A66A31300C7D9F8 /* Controller */,
+				74E3FEF72A66B4DC00C7D9F8 /* View Model */,
 				74E3FEDD2A66926600C7D9F8 /* BB_QuotesApp.swift */,
 				74E3FEDF2A66926600C7D9F8 /* ContentView.swift */,
 				74E3FEF52A66B29200C7D9F8 /* Constants.swift */,
@@ -96,6 +99,14 @@
 				74E3FEF32A66A33500C7D9F8 /* FetchController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		74E3FEF72A66B4DC00C7D9F8 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				74E3FEF82A66B4FD00C7D9F8 /* ViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				74E3FEF42A66A33500C7D9F8 /* FetchController.swift in Sources */,
 				74E3FEF02A669DAB00C7D9F8 /* Character.swift in Sources */,
 				74E3FEF62A66B29200C7D9F8 /* Constants.swift in Sources */,
+				74E3FEF92A66B4FD00C7D9F8 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
