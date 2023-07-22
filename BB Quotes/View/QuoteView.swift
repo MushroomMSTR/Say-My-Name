@@ -120,5 +120,6 @@ struct QuoteView: View {
 struct QuoteView_Previews: PreviewProvider {
 	static var previews: some View {
 		QuoteView(show: Constants.bbName)
+		QuoteView(show: Constants.bcsName)
 	}
 }
